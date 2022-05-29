@@ -10,24 +10,37 @@
     padding-block: 1.2rem;
     padding-inline: 2.4rem;
     text-align: center;
-    height: 4rem;
     text-transform: uppercase;
     transition: all .4s ease-in-out;
     border: none;
     cursor: pointer;
     background-size: 300% 100%;
-    width: 15.8rem;
     background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
     box-shadow: 0 0.4rem 1.5rem 0 rgba(126, 52, 161, 0.75);
 
     &:hover {
         background-position: 100% 0;
-        transition: all .4s ease-in-out;
-
-        
+        transition: all .4s ease-in-out;   
     }
     &:focus {
         outline: none;
     }
+
+    &.btn-header {
+       width: 15.8rem;
+       height: 4rem;
+    }
     
+    &.btn-dropmenu {
+        width: 31rem;
+        height: 4.8;
+        font-size: 1.5rem;
+        letter-spacing: 0.25rem;
+
+    }
+    &.btn-plan {  
+        width: 24.5rem;
+        height: 4rem;
+    }
 }
+
