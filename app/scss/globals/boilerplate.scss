@@ -21,7 +21,7 @@ body {
 	padding: 0;
 	overflow-x: hidden;
 	min-height: 100vh;
-	background-color: var(--main-accent);
+	background-image: linear-gradient(to right top, #ffc593, #fbb290, #f3a08f, #e78f91, #d78194, #d2789a, #c970a2, #bc6bac, #b569bf, #a66bd3, #8c70e9, #5a77ff);
 }
 
 /* by default, buttons and inputs don't inherit typographical styles from their parents.
