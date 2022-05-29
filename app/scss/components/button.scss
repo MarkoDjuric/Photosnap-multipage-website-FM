@@ -1,1 +1,16 @@
 @use '../util' as *;
+
+.btn {
+    display: inline-block;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding-block: 1.2rem;
+    padding-inline: 2.4rem;
+    text-align: left;
+    height: 4rem;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
