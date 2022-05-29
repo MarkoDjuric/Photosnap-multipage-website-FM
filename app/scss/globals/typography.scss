@@ -5,10 +5,36 @@ h2,
 h3 {
 	margin-top: 0;
 	line-height: 1.1;
+	font-weight:700;
+	
 }
 
 a,
 a:visited,
 a:active {
 	text-decoration: none;
+	
+}
+
+p {
+	font-weight: 400;
+	font-size:1.5rem;
+	line-height: 2.5rem;
+}
+
+h1 {
+	font-size: clamp(3.2rem, 6vw, 4rem);
+	line-height: 4rem;
+	letter-spacing: 0.33rem;
+	text-align: left;
+	@include breakpoint-up(tablet){
+		line-height: 4.8rem;
+		letter-spacing: 0.41rem;
+	}
+}
+
+h2 {
+	font-size: 1.8rem;
+	line-height: 2.5rem;
+	text-align: center;
 }
