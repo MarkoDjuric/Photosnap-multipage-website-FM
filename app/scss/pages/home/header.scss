@@ -8,10 +8,14 @@
     padding-inline: 2.4rem;
     height: 7.2rem;
  
-    .camera-photo {
+    &__camera {
         width: 3rem;
-        height: 3rem;
+        height: 2.5rem;
         cursor: pointer;
+    }
 
+    &__btn {
+        border: none;
+        background: center;
     }
 }
